@@ -1,0 +1,20 @@
+Basis opdrachten:
+Kijk welke typen constructors kunnen krijgen, zorg ervoor dat de constructors de nodige 'data' aanmaken of initialiseren.
+Maak van de property name, drie afzonderlijke properties voor FirstName, Surname en SurnamePrefix.
+Maak daarna een property aan voor de FullName met de volgende vereisten:
+- Zorg ervoor dat er geen dubbele spaties zijn wanneer er geen tussenvoegsels gebruikt hoeven te worden.
+- Een genodigde heeft een nette aanhef in de uitnodiging: Achternaam, Voornaam, Tussenvoegsel: Jansen, Jan van der
+- Alle personen personen hebben de opbouw voor FullName als volgt: Voornaam Tussenvoegsel Achternaam
+- Alle personen hebben een geslacht (keuzes zijn: Female, Male, Neutral, Unknown) - dit kan met een enum
+
+Antwoorden:
+- class en struct kunnen constructors krijgen.
+- De invoer gaat al naar .fullName, dus dat is dan toch direct de juiste opbouw?
+
+Vervolg opdrachten:
+Maak in de uitnodiging (class) een aanhef met "Meneer, mevrouw of meneer/mevrouw" afhankelijk van geslacht (M, F, onzijdig)
+Maak verschillende uitnodigingen per ContactMethode. Neem per contact methode de contactgegevens op:
+- telefoonnummer
+- postadres
+- email
+- etc
